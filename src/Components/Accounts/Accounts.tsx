@@ -204,7 +204,7 @@ export const Accounts = () => {
 
             <th>
               <span className="is-flex is-flex-wrap-nowrap">
-                Email {accountSortType}
+                Email
                 <button
                   className='button is-rounded is-small is-light is-info ml-2'
                   onClick={() => {
