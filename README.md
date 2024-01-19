@@ -21,10 +21,6 @@ Check out the live demo [here](https://hardcodworker.github.io/Table-App/)!
 
 1. **Clone the Repository:**
 
-   
-   
-markdown
-Copy code
 # React App with Vite
 
 ## Overview
