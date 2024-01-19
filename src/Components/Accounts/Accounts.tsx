@@ -271,7 +271,7 @@ export const Accounts = () => {
           </button>
 
           <ul className="pagination-list">
-            {pagination().map((button, i) => (
+            {pagination().map((_, i) => (
               <li><button
                 className={classNames("pagination-link button", { 'is-info': page === i })}
                 aria-label="Goto page 45"

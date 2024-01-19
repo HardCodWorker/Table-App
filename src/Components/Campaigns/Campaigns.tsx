@@ -1,8 +1,8 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Cdata } from '../../types'
 import classNames from 'classnames';
-import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 
 
@@ -392,7 +392,7 @@ export const Campaigns = () => {
               </button>
 
               <ul className="pagination-list">
-                {pagination().map((button, i) => (
+                {pagination().map((_, i) => (
                   <li><button
                     className={classNames("pagination-link button", { 'is-info': campaignPage === i })}
                     aria-label="Goto page 45"

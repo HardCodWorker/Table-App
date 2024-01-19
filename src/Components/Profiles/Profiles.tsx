@@ -1,7 +1,7 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Pdata } from '../../types'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link,  useParams } from 'react-router-dom'
 import classNames from 'classnames';
 
 
@@ -312,7 +312,7 @@ export const Profiles = () => {
 
 
                 <ul className="pagination-list">
-                  {pagination().map((button, i) => (
+                  {pagination().map((_, i) => (
                     <li><button
                       className={classNames("pagination-link button", { 'is-info': profilePage === i })}
                       aria-label="Goto page 45"
